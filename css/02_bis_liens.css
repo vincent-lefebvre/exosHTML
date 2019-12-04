@@ -1,0 +1,12 @@
+/*Les styles pour la page avec les liens hyper texte*/
+
+body {
+    background-color: white;
+}
+
+/*Une classe pour styler certaines parties de la page*/
+.fond_rose {
+    background-color: pink;
+}
+
+/* ici les styles pour les formulaires */

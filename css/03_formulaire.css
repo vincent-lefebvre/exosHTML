@@ -1,0 +1,22 @@
+/*feuille de style pour mon premier formulaire HTML*/
+
+body {
+    background-color: palegoldenrod;
+}
+
+form {
+    background-color: skyblue;
+}
+
+legend {
+    background-color: chartreuse;
+    border: 2px solid black;
+}
+
+fieldset {
+    border: 2px solid black;
+}
+
+textarea {
+    background-color: gray;
+}
