@@ -1,0 +1,21 @@
+/* feuille de style pour la page sélecteur */
+
+body {
+    background-color: skyblue;
+}
+
+/* des classes pour la page */
+
+.zone1 {
+    background-color: slateblue;
+}
+
+.zone2 {
+    background-color: springgreen;
+}
+
+/* des styles pour les id */
+
+#zone3 {
+    background-color: tomato;
+}
