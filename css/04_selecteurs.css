@@ -2,20 +2,77 @@
 
 body {
     background-color: skyblue;
+    /* taille de la police ou de la typo ou de la font (et pes de l'écriture) */
 }
 
-/* des classes pour la page */
+/* des propriétés pour la section et pour les différents paragraphes de la section  */
+section {
+    background-color: lightgray;
+    width: 50%;
+    padding: 5px;
+    border:1px solid red;
+    margin-bottom: 10px;
+}
 
+section p {
+    color: olive;
+}
+
+section p:first-child {
+    /* le premier P de chaque section sera darkblue et en gras */
+    color: darkblue;
+    font-weight: bolder;
+}
+
+section p:last-child {
+    /* le dernier P de chaque section aura un fond orange */
+    background-color: orange;
+}
+
+section p:nth-child(3) {
+    /* le 3éme P de chaque section sera en majuscule ; nTH le énième d'un élément */
+    text-transform: uppercase;
+}
+
+section p:nth-child(even) {
+    /* tous les P pair */
+    background-color: burlywood;
+}
+
+section p:nth-child(odd) {
+    /* tous les P impair */
+    background-color: white;
+}
+
+section p:nth-child(5), section p:nth-child(8) {
+    text-transform: capitalize;
+    height: 50px;
+}
+
+
+
+/* des classes pour la page */
 .zone1 {
     background-color: slateblue;
+    height: 30px;
 }
 
 .zone2 {
     background-color: springgreen;
+    height: 60px;
 }
 
 /* des styles pour les id */
 
 #zone3 {
     background-color: tomato;
+    height: 90px;
+}
+#zone3:after {
+    content: "rajouté après la zone 3";
+}
+
+sup {
+    background-color: black;
+    color: white;
 }
