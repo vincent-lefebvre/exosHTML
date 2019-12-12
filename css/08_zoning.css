@@ -1,0 +1,30 @@
+/* feuille de style pour zoning */
+body {
+    width: 80%;
+    background-color: grey;
+    border: 1px solid white;
+    margin: 10 px auto;
+}
+
+#contenu {
+    background-color: lightsalmon;
+    border: 2px red;
+}
+
+header, footer {
+    height: 120px;
+    border: 1px solid olive;
+    text-align: center;
+    padding-top: 10px;
+}
+
+nav {
+    height: 60px;
+    background-color: pink;
+}
+
+section {
+    border: 20px solid lightseagreen;
+    height: 400px;
+    text-align: center;
+}
