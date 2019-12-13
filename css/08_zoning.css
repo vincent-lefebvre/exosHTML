@@ -18,9 +18,10 @@ header, footer {
     padding-top: 10px;
 }
 nav {
-    height: 60px;
+    height: 120px;
     background-color: lightsalmon;
-    padding-left: 40px;
+    padding: 60px;
+    text-align: center;
 }
 section {
     border: 20px solid lightgrey;
