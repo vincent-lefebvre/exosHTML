@@ -9,8 +9,10 @@ body {
     background-repeat: no-repeat;
     width: 260px;
     height: 194px;
-    border: 5px solid red;
+    border: 5px solid white;
+    margin: 5px solid red;
     float: left;
+    transition: 2s;
 }
 
 .clear {

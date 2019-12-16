@@ -10,22 +10,39 @@ body {
 }
 
 table {
-    border: 1px solid ;
+    border: 10px solid black ;
     width: 150px;
     height: 150px;
     border-radius: 25%;
     float: left;
     text-align: center;
-    margin: 10px;
-
+    margin: 20px;
+    padding: 20px;
+    
 }
 
 .c1 {
+    border: 10px solid red ;
+    width: 150px;
+    height: 150px;
+    border-radius: 25%;
+    float: left;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
     background-color: green;
 
 }
 
 .c2 {
+    border: 10px solid red ;
+    width: 150px;
+    height: 150px;
+    border-radius: 25%;
+    float: left;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
     background-color: purple;
 
 }
