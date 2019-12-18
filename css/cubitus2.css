@@ -1,0 +1,36 @@
+/* feuille de style cubitus */
+
+body {
+    background-color: chartreuse;
+}
+
+.clear {
+    clear: both;
+}
+
+.C1,.C2,.C3,.C4,.C5,.empty {
+    border: 2px solid black;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    float: left;
+    margin: 3px;
+}
+
+.C1{
+    background-color: blueviolet;
+    border-radius: 30%;
+}
+
+.C2{
+    background-color: cyan;
+    border-radius: 80%;
+
+}
+.C3{
+    background-color: blueviolet;
+}
+
+.C4{
+    background-color: cyan;
+}
